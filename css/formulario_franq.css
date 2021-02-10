@@ -1,0 +1,104 @@
+input[type="text"], textarea, file, select {
+  background-color : rgb(255, 255, 255);
+}
+body {
+  color: rgb(255, 255, 255);
+  background-color: rgb(24, 24, 24);
+  
+}
+#liBoutUs{
+  float: right;
+}
+#footer{
+  background-color: #111;
+  display: flexbox;
+  text-align: center;
+  height:100px;
+}
+.button {
+
+  margin-top: 1%;
+  border-radius: 3px;
+  background-color: #008dba;
+  border: solid 1px transparent;
+  color: #fff;
+  font-weight: 300;
+  cursor: pointer;
+  transition: all 0.1s ease-in-out;
+}
+.button:hover {
+  background-color: transparent;
+  border-color: #fff;
+  transition: all 0.1s ease-in-out;
+}
+.formulario{
+  margin: auto;
+  width: 35%;
+  border: 3px solid;
+  padding: 10px;
+}
+
+
+h2{
+text-indent: 3%;
+}
+
+p{
+text-indent: 3%;
+}
+
+label{
+    display: inline-block;
+    clear: left;
+    width: 180px;
+    text-align: left;
+}
+
+.back{
+   display: block;
+   float: auto;
+}
+
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li  {
+  float: left;
+}
+
+a{
+  cursor: pointer;
+}
+li  #link  {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li  #link:hover {
+  animation-name: hoverNav;
+  animation-fill-mode: forwards;
+  animation-duration: 200ms;
+}
+.active {
+  background-color: #008dba;
+}
+ 
+@keyframes hoverNav{
+  from{background-color:#333;}
+  to{background-color:#111;}
+}
+
+#logo{
+  height: 40px;
+  width: 300px;
+}
+

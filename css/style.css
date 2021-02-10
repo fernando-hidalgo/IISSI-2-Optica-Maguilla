@@ -1,0 +1,224 @@
+legend{
+  color: rgb(255, 255, 255);
+}
+
+.fixed_header{
+    width: 100%;
+    table-layout: fixed;
+    border-collapse: collapse;
+    
+}
+.fixed_header tbody{
+  display:block;
+  width: 100%;
+  overflow: auto;
+  height: 500px;
+  
+}
+.tableRow td{
+  display:block;
+  color: #212121;
+}
+.fixed_header input[type="submit"]{
+  background-color: #333;
+  color: #fff;
+}
+
+.linea:hover  { 
+  cursor: pointer;
+  animation-name: hovercolor;
+  animation-fill-mode: forwards;
+  animation-duration: 200ms;
+  background-color: #212121;
+}
+.linea:hover .tableRow { 
+  cursor: pointer;
+  animation-name: hovercolor;
+  animation-fill-mode: forwards;
+  animation-duration: 200ms;
+  background-color: #212121;
+}
+
+.fixed_header td { 
+ background-color: #fff;
+}
+.fixed_header thead {
+  background: #272727;
+  color:#eee;
+}
+
+.fixed_header th, .fixed_header td {
+  padding: 5px;
+  text-align: left;
+  width: 100%;
+}
+
+input.right {
+  float: right;
+}
+
+fieldset{
+  width: fit-content;
+}
+.formOferta{
+  background-color: #333;
+  zoom: 1.30;
+  -moz-transform: scale(1.30);
+}
+
+.formOferta ul{
+  list-style: none;
+}
+#add{
+  position: relative;
+  left: 98.3%;
+  background-color: #008dba;
+  border: solid 1px transparent;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 300;
+  cursor: pointer;
+  transition: all 0.1s ease-in-out;
+}
+#add:hover {
+  background-color: transparent;
+  border-color: #fff;
+  transition: all 0.1s ease-in-out;
+}
+
+#descripcion0{
+  resize: none;
+  border-color: lightblue;
+  width: 53%;
+  height: 10%;
+}
+#añadirProductos{
+  font-size: 12px;
+ 
+}
+.tableRow{
+  height: inherit;
+  width: inherit;
+  border: 0;
+}
+
+body {
+  color: rgb(255, 255, 255);
+  background-color: rgb(24, 24, 24);
+}
+
+#footer{
+  background-color: #111;
+  display: flexbox;
+  text-align: center;
+  height:100px;
+}
+
+.formulario{
+  margin: auto;
+  border: 3px solid;
+  padding: 10px;
+}
+
+.errores{
+  display: inline;
+}
+
+
+h2{
+text-indent: 3%;
+}
+
+p{
+text-indent: 3%;
+}
+
+label{
+  display: inline-block;
+  clear: left;
+  width: 180px;
+  text-align: left;
+}
+
+/* Mensajes de Error */
+div.error, div.excepcion {
+	color: red;	
+	border: 2px solid red;
+	padding: 10px;
+	margin: 10px;
+	width: 300px;
+  margin: 50px;
+}
+
+.graduar{
+  position: absolute;
+  left: 405px;
+  top: 205px;
+}
+
+@keyframes hovercolor{
+  from{background-color: #333333;}
+  to{background-color: #008dba;}
+}
+
+.navBar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+.navBar li  {
+  float: left;
+}
+
+a{
+  cursor: pointer;
+}
+
+li  #link  {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li  #link:hover {
+  animation-name: hoverNav;
+  animation-fill-mode: forwards;
+  animation-duration: 200ms;
+}
+#liBoutUs{
+  float: right;
+}
+.active {
+  background-color: #008dba;
+}
+ 
+#logo{
+  height: 40px;
+  width: 300px;
+}
+
+@keyframes hoverNav{
+  from{background-color:#333;}
+  to{background-color:#111;}
+}
+.button {
+
+  margin-top: 1%;
+  border-radius: 3px;
+  background-color: #008dba;
+  border: solid 1px transparent;
+  color: #fff;
+  font-weight: 300;
+  cursor: pointer;
+  transition: all 0.1s ease-in-out;
+}
+.button:hover {
+  background-color: transparent;
+  border-color: #fff;
+  transition: all 0.1s ease-in-out;
+}
